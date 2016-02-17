@@ -6,10 +6,10 @@ var mysql = require("mysql");
 
 var pool  = mysql.createPool({
     connectionLimit : 10,
-    host            : '192.168.0.160',
-    user            : 'remoto',
-    password        : 'nachito',
-    database : "crm",
+    host            : 'tu host',
+    user            : 'usuario',
+    password        : 'password',
+    database : "base de datos",
     debug: false
 });
 
